@@ -21,7 +21,7 @@ class _ImagePickerPracticeState extends State<ImagePickerPractice> {
       if (pickedFile != null) {
         _image = File(pickedFile.path);
       } else {
-        print('no image selected');
+        print('no image selected ok');
       }
     });
   }

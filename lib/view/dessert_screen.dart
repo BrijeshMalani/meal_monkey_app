@@ -24,7 +24,7 @@ class _DessertScreenState extends State<DessertScreen> {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        print('arrow back buttons');
+                        print('arrow back button');
                       },
                       child: Icon(Icons.arrow_back_ios_sharp),
                     ),

@@ -42,7 +42,7 @@ class _MoreScreenState extends State<MoreScreen> {
                   Spacer(),
                   GestureDetector(
                     onTap: () {
-                      print('Gesturedetector');
+                      print('GestureDetector');
                     },
                     child: Icon(Icons.shopping_cart),
                   ),
